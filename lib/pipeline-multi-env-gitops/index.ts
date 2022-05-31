@@ -109,7 +109,7 @@ export default class PipelineMultiEnvGitops {
         try {
 
             // const { gitOwner, gitRepositoryName } = await getRepositoryData();
-            const gitOwner = 'tsahiduek';
+            const gitOwner = 'muni-annachi';
             const gitRepositoryName = 'cdk-eks-blueprints-patterns';
 
             blueprints.CodePipelineStack.builder()
